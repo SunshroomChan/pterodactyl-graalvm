@@ -9,7 +9,7 @@ ARG TARGETPLATFORM
 ARG GRAAL_VERSION=22.3.5
 ARG JAVA_VERSION=17
 
-LABEL       author="SunshroomChan" maintainer="agroup168@gmail.com"
+LABEL       author="SunshroomChan" maintainer="viethoangluunguyen1974@gmail.com"
 
 ENV DEBIAN_FRONTEND=noninteractive
 
