@@ -24,7 +24,7 @@ RUN apt-get update -y \
          "linux/amd64")  ARCH=linux-amd64  ;; \
          "linux/arm64")  ARCH=linux-aarch64  ;; \
     esac \
-  && curl --retry 3 -Lfso /tmp/graalvm.tar.gz https://github.com/SunshroomChan/pterodactyl-graalvm/raw/refs/heads/main/graalvm-ee-java17-linux-amd64-22.3.5.tar.gz \
+  && curl --retry 3 -Lfso /tmp/graalvm.tar.gz https://github.com/SunshroomChan/pterodactyl-graalvm/raw/refs/heads/master/graalvm-ee-java17-linux-amd64-22.3.5.tar.gz \
   && mkdir -p /opt/java/graalvm \
   && cd /opt/java/graalvm \
   && tar -xf /tmp/graalvm.tar.gz --strip-components=1 \
